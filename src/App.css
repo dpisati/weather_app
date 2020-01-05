@@ -304,12 +304,7 @@ svg {
 
 @media only screen and (max-width: 1000px) {
   body {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100%;
-    overflow: hidden;
+    height: 100vh;
   }
 
   .main {
@@ -317,16 +312,12 @@ svg {
   }
 
   h1 {
-    font-size: 1em;
+    font-size: 0.8em;
     margin: 10px;
   }
-  background: linear-gradient(
-    180deg,
-    rgba(252, 166, 169, 1) 0%,
-    rgba(170, 135, 203, 1) 100%
-  );
+
   .title_p {
-    font-size: 0.5em;
+    font-size: 0.4em;
   }
   form {
     height: 130px;
