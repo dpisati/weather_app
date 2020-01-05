@@ -101,7 +101,7 @@ const Weather = props => (
         </svg>
       </div>
     )}
-    {props.error && <p>{props.error}</p>}
+    {props.error && <p className="error">{props.error}</p>}
   </div>
 );
 

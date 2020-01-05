@@ -294,6 +294,14 @@ svg {
   align-items: flex-start;
 }
 
+.error {
+  grid-column: 1/3;
+  grid-row: 1/7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media only screen and (max-width: 1000px) {
   .main {
     display: block;
